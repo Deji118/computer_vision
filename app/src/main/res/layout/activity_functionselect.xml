@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#effbe4"
+        android:orientation="vertical"
+        tools:context=".activity_functions">
+
+        <TextView
+            android:id="@+id/new_asset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click to perform operation"
+            android:textColor="@color/red" />
+        <TextView
+            android:id="@+id/staff_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="001"
+            android:textColor="@color/colorPrimary" />
+        <Button
+            android:id="@+id/examine"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="19dp"
+            android:layout_marginVertical="10dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:onClick="examine_fields"
+            android:padding="8dp"
+            android:text="Examine Fields"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@color/colorAccent" />
+        <Button
+            android:id="@+id/members"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="19dp"
+            android:layout_marginVertical="10dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:onClick="sync_members"
+            android:padding="8dp"
+            android:text="Sync Down Members"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@color/colorPrimary" />
+        <Button
+            android:id="@+id/fields"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="19dp"
+            android:layout_marginVertical="10dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:onClick="sync_fields"
+            android:padding="8dp"
+            android:text="Sync Up Results"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@color/colorPrimary" />
+        <Button
+            android:id="@+id/examined_fields"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="19dp"
+            android:layout_marginVertical="10dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:onClick="show_fields"
+            android:padding="8dp"
+            android:text="Show Examined Fields"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@color/colorPrimary" />
+
+        <!--<Button-->
+            <!--android:id="@+id/statistics"-->
+            <!--style="@android:style/Widget.Button"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginHorizontal="19dp"-->
+            <!--android:layout_marginVertical="10dp"-->
+            <!--android:layout_marginLeft="32dp"-->
+            <!--android:layout_marginRight="32dp"-->
+            <!--android:onClick="show_statistics"-->
+            <!--android:padding="8dp"-->
+            <!--android:text="Show Stats of Examined Fields"-->
+            <!--android:textAppearance="@style/TextAppearance.AppCompat.Button"-->
+            <!--android:textColor="@color/colorPrimary" />-->
+        <!--<Button-->
+            <!--android:id="@+id/export"-->
+            <!--style="@android:style/Widget.Button"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginHorizontal="19dp"-->
+            <!--android:layout_marginVertical="10dp"-->
+            <!--android:layout_marginLeft="32dp"-->
+            <!--android:layout_marginRight="32dp"-->
+            <!--android:onClick="export"-->
+            <!--android:padding="8dp"-->
+            <!--android:text="Export to Excel"-->
+            <!--android:textAppearance="@style/TextAppearance.AppCompat.Button"-->
+            <!--android:textColor="@color/colorPrimary" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/new_asset2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="select Track Assets to track collection centers or Villages"-->
+        <!--android:layout_marginVertical="70dp"-->
+
+        <!--android:textColor="@color/mycolor2" />-->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="142dp"
+            android:layout_marginRight="32dp"
+            android:text="V1.0.2"
+            android:textColor="#e73538"
+            android:layout_marginTop="40dp"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+

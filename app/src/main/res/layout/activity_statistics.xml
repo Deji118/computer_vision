@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#effbe4"
+        android:orientation="vertical"
+        tools:context=".activity_functions">
+
+        <TextView
+            android:id="@+id/new_asset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="statistics of Fields Examined"
+            android:textColor="@color/red" />
+        <TextView
+            android:id="@+id/staff_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="001"
+            android:textColor="@color/colorPrimary" />
+        <TextView
+            android:id="@+id/mapped_today"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Number Of Fields Examined Today"
+            android:textColor="@color/colorPrimaryDark"
+            />
+        <TextView
+            android:id="@+id/number_today"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Number"
+            android:textColor="@color/red" />
+        <TextView
+            android:id="@+id/mapped_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Total Of Number Fields Examined "
+            android:textColor="@color/colorPrimaryDark"
+            />
+        <TextView
+            android:id="@+id/number_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Number"
+            android:textColor="@color/red" />
+        <TextView
+            android:id="@+id/synced"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Number of Fields Synced"
+            android:textColor="@color/colorPrimaryDark"
+            />
+        <TextView
+            android:id="@+id/synced_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Number"
+            android:textColor="@color/red" />
+        <TextView
+            android:id="@+id/last_synctext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Last Sync Done:"
+            android:layout_marginTop="50dp"
+
+            android:textColor="@color/colorPrimaryDark"
+            />
+        <TextView
+            android:id="@+id/last_sync"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Date"
+            android:textColor="@color/red" />
+
+
+    </LinearLayout>
+</ScrollView>

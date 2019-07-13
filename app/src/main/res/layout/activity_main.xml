@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".pictureMLactivity">
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:id="@+id/scatterplot" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="410dp"
+        android:text="Your current Location is the red angle on the field. Follow the direction on the map"
+        android:textColor="#e73538"
+        android:textSize="12sp" />
+
+
+        <Button
+            android:id="@+id/take_picture"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="19dp"
+            android:layout_marginVertical="440dp"
+
+            android:onClick="track"
+            android:padding="8dp"
+            android:layout_alignParentLeft="true"
+
+
+            android:text="Take Picture"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@color/colorPrimary" />
+
+    <!--<Button-->
+        <!--android:id="@+id/done"-->
+        <!--style="@android:style/Widget.Button"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentright="true"-->
+        <!--android:layout_marginHorizontal="19dp"-->
+        <!--android:layout_marginVertical="21dp"-->
+
+
+        <!--android:layout_marginStart="281dp"-->
+        <!--android:layout_marginBottom="32dp"-->
+        <!--android:onClick="done"-->
+        <!--android:padding="8dp"-->
+        <!--android:text="Done"-->
+        <!--android:textAppearance="@style/TextAppearance.AppCompat.Button"-->
+        <!--android:textColor="@color/colorPrimary" />-->
+
+
+</RelativeLayout>
